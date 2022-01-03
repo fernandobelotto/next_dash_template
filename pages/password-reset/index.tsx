@@ -52,7 +52,7 @@ export default function PasswordReset({ }: Props): ReactElement {
                         </FormControl>
                         <Stack spacing={6}>
                             <Button
-                                colorScheme={'brand'}
+                                colorScheme={'teal'}
                                 type='submit'
                             >
                                 Submit

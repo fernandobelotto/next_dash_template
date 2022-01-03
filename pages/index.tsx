@@ -19,23 +19,23 @@ export default function Login({ }: {}): ReactElement {
                             <Heading fontSize={'2xl'}>Sign in to your account</Heading>
                             <FormControl id="email">
                                 <FormLabel>Email address</FormLabel>
-                                <Input colorScheme={'brand'} type="email" />
+                                <Input colorScheme={'teal'} type="email" />
                             </FormControl>
                             <FormControl id="password">
                                 <FormLabel>Password</FormLabel>
-                                <Input colorScheme={'brand'} type="password" />
+                                <Input colorScheme={'teal'} type="password" />
                             </FormControl>
                             <Stack spacing={6}>
                                 <Stack
                                     direction={{ base: 'column', sm: 'row' }}
                                     align={'start'}
                                     justify={'space-between'}>
-                                    <Checkbox colorScheme={'brand'}> Remember me</Checkbox>
+                                    <Checkbox colorScheme={'teal'}> Remember me</Checkbox>
                                     <NextLink href='/password' passHref>
                                         <Link color={'brand.500'}>Forgot password?</Link>
                                     </NextLink>
                                 </Stack>
-                                <Button colorScheme={'brand'} variant={'solid'} type='submit'>
+                                <Button colorScheme={'teal'} variant={'solid'} type='submit'>
                                     Sign in
                                 </Button>
                             </Stack>

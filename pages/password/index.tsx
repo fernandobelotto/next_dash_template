@@ -46,7 +46,7 @@ export default function Password({ }: Props): ReactElement {
                     </FormControl>
                     <Stack spacing={6}>
                         <Button
-                            colorScheme={'brand'}
+                            colorScheme={'teal'}
                             onClick={handleReset}
                         >
                             Request Reset
